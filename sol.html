@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+        @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+            font-family: "Lato", "SpoqaHanSans", sans-serif;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: column;
+            
+            padding: 20px;
+            
+            background-color: black;
+            color:white;
+            text-align:center;
+        }
+        
+        #download-sol {
+            flex-grow: 10;
+            border: 0.8px solid orange;
+            margin: 1.5rem;
+            padding: 0.5rem 1.5rem;
+            color: orange;
+            text-decoration: none;
+        }
+        
+        #footer-information-sol {
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            margin: 1rem;
+        }
+        #footer-information-sol > p {
+            margin:1rem;
+        }
+        #left-img-sol {
+            height: 246px;
+            width:70vw; 
+            background-size:cover;
+        }
+        
+        #right-img-sol {
+            height: 200px;
+            width:40vw; 
+            background-size:cover;
+        }
+        
+        #first-article-sol {
+            margin-bottom:67.5px;
+        }
+        
+        #second-article-sol {
+            display:flex;
+            /*justify-content: flex-end;*/
+            justify-content: space-between;
+        }
+        
+        #second-article-sol > div {
+            display:flex;
+            flex-direction: column;
+        }
+        
+        #copyright-sol {
+            color:gray;
+            font-size:10px;
+            text-transform: uppercase;
+            margin-bottom:30px;
+        }
+        
+        #footer-title-sol {
+            margin:2vw;
+        }
+        
+        #heading-1-sol {
+            font-size:3rem;
+        }
+        
+        #heading-2-sol {
+            font-size:2rem;
+        }
+        
+        .bold-font-sol {
+            font-weight: bold;
+        }
+        
+        .icon-color-sol {
+            color:orange;
+            padding-right:5px;
+        }
+        
+        .dot-line-align-sol {
+            margin-left:100px;
+        }
+        
+        .dot-line-sol {
+            position: absolute;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="our-mission-sol">
+        <p id="heading-1-sol" class="dot-line-align-sol">OUR MISSION</p><!--class로 위치맞춰서 선하고 내용하고 통일 시키기-->
+        <img class="dot-line-sol dot-line-align-sol" src="https://d2hmp4n7p97ldw.cloudfront.net/assets/home/line-5-c5601431f33795a729c2a2d2e1988af7867b86a00ce00ae594774db3b90a555c.png" alt="Line 5">
+        <article id="first-article-sol">
+            <div id="left-img-sol" style="background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/om-01-f319ca68d22ba28f0c839835dec39f09786ee24ba73c783abdb526d3165bc67e.png')"></div>
+        </article>
+        <article id="second-article-sol">
+            <div>
+                <h2 id="heading-2-sol" class="dot-line-align-sol">
+                    온라인 강의와 오프라인 활동을 통한
+                    <br>
+                    <span class="bold-font-sol">체계적인 프로그래밍 교육</span>
+                </h2>
+                <p class="dot-line-align-sol">
+                    <span class="bold-font-sol">자체 개발된 온라인 강의 플랫폼 '클래스라이언'</span> 을 통해 강의를 듣고 과제를 수행합니다.
+                    <br>다양한 오프라인 활동과 병행하여 뜻을 같이하는 동료를 찾고
+                    <br>자신이 <span class="bold-font-sol">만들고자 하는 서비스를 직접 프로그래밍</span> 하도록 돕습니다.
+                </p>
+            </div>
+            <div id="right-img-sol" style="background-image: url(https://d2hmp4n7p97ldw.cloudfront.net/assets/home/om-02-7cf5a9b8b6c5c612b4a190a3c025d626b92f06cecc458c0304936e9516bde213.png)"></div>
+        </article>
+    </section>
+    <footer>
+        <p id="footer-title-sol"><span class="bold-font-sol">멋쟁이 사자처럼</span> - HACK YOUR LIFE</p>
+        <div>
+            <a id="download-sol" href="https://s3.ap-northeast-2.amazonaws.com/likelion-net/LIKELION+BI+Guideline+Ver1.zip">
+                <span class="bold-font-sol">BI</span> Guideline Downlaod
+            </a>
+        </div>
+        <div id="footer-information-sol">
+            <p class="bold-font-sol"><i class="fa fa-map-marker icon-color-sol" aria-hidden="true"></i>서울특별시 강남구 테헤란로 212, 1005호</p>
+            <p class="bold-font-sol"><i class="fa fa-envelope icon-color-sol" aria-hidden="true"></i>master@likelion.net</p>
+            <p class="bold-font-sol"><i class="fa fa-facebook icon-color-sol" aria-hidden="true"></i>facebook.com/likelion.net</p>
+        </div>
+        <p id="copyright-sol">
+    대표 : 강동주   Copyright © 멋쟁이사자처럼 All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+        
+/**************************** start section-jinbro ****************************/
+
+.section-jinbro {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	
+	position: relative;
+
+	height: 44em;
+	color: #fff;	
+}
+
+.section-left-wrapper-jinbro {
+	flex-grow: 3;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+			
+	background-image: url("http://d2hmp4n7p97ldw.cloudfront.net/assets/home/home-univ-a2a9691778a5c9112aaf395c7760e66d50be2bcf530f189a0743b31937dec4af.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.section-left-jinbro { 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.section-left-title-jinbro {
+ 	margin-bottom: 50px;
+	
+	font-weight: lighter;
+	font-size: 40px;
+	letter-spacing: -3px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.section-left-btn-jinbro {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	align-items: center;
+
+ 	background-color: rgba(0, 0, 0, 0.7);
+	margin-top: 10px;
+	padding: 15px 30px;
+
+	cursor: pointer;
+}
+
+.section-left-btn-jinbro > span {
+ 	font-size: 15px;
+	color: #fff;
+}
+
+.section-left-btn-jinbro > img {
+	margin-left: 10px;
+ 	height: 20px;
+}
+
+.section-right-wrapper-jinbro {
+	flex-grow: 1;
+
+	background-color: #000;
+}
+
+.section-right-jinbro {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;	
+}
+
+.section-right-content-jinbro {
+	position: relative;	
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-right-content-jinbro > div {
+	position: absolute;
+
+	left: -1080px;
+	top: -50px;
+
+	overflow: hidden;			
+}
+
+.font-big-jinbro {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.font-small-jinbro {
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.section-top-wrapper-jinbro {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(255, 255, 255, 0.9);
+
+	color: #000;
+	font-weight: lighter;
+}
+
+.section-top-jinbro {		
+	position: relative;
+}
+
+.section-top-jinbro > img {
+	position: absolute;
+
+	right: 50px;
+	top: 50px;
+
+	width: 50px;
+	height: 50px;
+
+	cursor: pointer;
+}
+		
+.section-top-display-jinbro {
+	display: block;
+}
+		
+.section-top-hide-jinbro {
+	display: none;
+}
+/**************************** end section-jinbro ****************************/
+/**************************** start section-jinwoo **************************/
+.service-box-jinwoo.img-01-jinwoo {
+    background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/os-01-61135fdc48f0234fbef929928938f99d9f745549c406807590c90c58b0db3167.png');
+}
+.service-box-jinwoo.img-02-jinwoo {
+    background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/os-02-bff8628f5d99c5e5eb3c4786f97d8467436bf473ee029db8328112241020256a.png');
+}
+.service-box-jinwoo.img-03-jinwoo {
+    background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/os-03-43e394a5a56f884f89a451c51b42559d2d7531d2b542d113e9ebfbaa0d7703e6.png');
+}
+.service-box-jinwoo.img-04-jinwoo {
+    background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/os-04-8e95fa7a11a6e7070839770c0cde844be7f54e7704b90eae0be81f9af7c8fd4f.png');
+}
+h1 {
+    font-size: 3.3475rem;
+    margin-top: 0;
+    font-weight: 100;
+}
+h3 {
+    font-size: 1.9125rem;
+    margin-bottom: 8.5rem;
+    margin-top: 0;
+    font-weight: 100;
+}
+hr {
+    border: 0;
+}
+.home-body-box-2-jinwoo {
+    padding: 10rem 0;
+}
+.service-flex-jinwoo {
+    height: 30vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.service-box-jinwoo {
+    position: relative;
+    width: 25vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: no-repeat center / cover;
+}
+.line-4-jinwoo {
+    position: absolute;
+    top: -13rem;
+}
+.service-box-caption-jinwoo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.service-box-overlay-jinwoo {
+    position: absolute;
+    opacity: 0;
+}
+/**************************** end section-jinwoo *******************/
+/**************************** start sol ****************************/
+footer {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+
+#download-sol {
+    flex-grow: 10;
+    border: 0.8px solid orange;
+    margin: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    color: orange;
+    text-decoration: none;
+}
+
+#footer-information-sol {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+#footer-information-sol > p {
+    margin:1rem;
+}
+#left-img-sol {
+    height: 246px;
+    width:70vw; 
+    background-size:cover;
+}
+
+#right-img-sol {
+    height: 200px;
+    width:40vw; 
+    background-size:cover;
+}
+
+#first-article-sol {
+    margin-bottom:67.5px;
+}
+
+#second-article-sol {
+    display:flex;
+    /*justify-content: flex-end;*/
+    justify-content: space-between;
+}
+
+#second-article-sol > div {
+    display:flex;
+    flex-direction: column;
+}
+
+#copyright-sol {
+    color:gray;
+    font-size:10px;
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+
+#footer-title-sol {
+    margin:2vw;
+}
+
+#heading-1-sol {
+    font-size:3rem;
+}
+
+#heading-2-sol {
+    font-size:2rem;
+}
+
+.bold-font-sol {
+    font-weight: bold;
+}
+
+.icon-color-sol {
+    color:orange;
+    padding-right:5px;
+}
+
+.dot-line-align-sol {
+    margin-left:100px;
+}
+
+.dot-line-sol {
+    position: absolute;
+}
+/**************************** end sol ****************************/
+
+/**************************** moon start ************************/
+
+/* nav 위치 */
+		
+        .navbar-top-moon{
+            position: absolute;
+            top: 0;
+            left: 13%;
+            right: 10%;
+        }
+        /* 로고 */
+        .navbar-logo-moon {
+            float: left;
+            padding-top: 1.4em;
+        }
+        
+        /* 로고 이미지 크기 */
+        .navbar-logo-moon img{
+            height: 1.1em;
+        }
+        
+        /* 카테고리 */
+        .navbar-moon ul li {
+            list-style: none;
+            position: relative;
+            left: 16em;
+            color: gray;
+            float: left;
+        }
+        
+        /* 카테고리 상세 */
+        .nav-category-moon {
+            text-align: center;
+            line-height:30px;
+            vertical-align: middle;
+            padding-right: 1.2em;
+            padding-left: 1.2em;
+        }
+        
+        /* 카테고리 링크 */
+        .nav-link-moon {
+            text-decoration: none;
+            color: gray;
+        }
+        
+        a:hover {
+            color: silver;
+        }
+        
+        a:active {
+            color: white;
+        }
+        
+        
+        /* 카테고리 언어부분 */
+        .nav-lang-moon {
+            font-size:0.9em;
+            font-weight: 100;
+            border: 1px solid white;
+            padding: 4px;
+        }
+        
+        .prev-moon{
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23202020'%2F%3E%3C%2Fsvg%3E");
+            position: absolute;
+            top: 57%;
+            left: 2%;
+        }
+        .next-moon {
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23202020'%2F%3E%3C%2Fsvg%3E");
+            position: absolute;
+            top: 57%;
+            right: 2% ;
+            
+        }
+        
+        .prev-moon,.next-moon {
+            float:left;
+            width: 27px;
+            height: 44px;
+            z-index: 10;
+            cursor: pointer;
+            -moz-background-size: 10px 100px;
+            -webkit-background-size: 100px 100px;
+            background-size: 27px 44px;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black;
+        }
+         .slider-holder-moon{
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .left-wing-moon {
+            background-image: url(https://d2hmp4n7p97ldw.cloudfront.net/assets/home/slide/left-wing-e945206df58f66d077b29a632a1a16a8f4c06dfc10a2ef7787f356fb6a157ffb.png);
+        }
+        
+        .home-headerimage-moon {
+            width: 100%;
+            height: 100vh;
+            background: no-repeat center center / cover;
+        }
+/***********************end moon *************************************

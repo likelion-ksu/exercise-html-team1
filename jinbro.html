@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Lato');
+        @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+	
+		body{
+			margin: 0;
+			padding: 0;
+			
+			font-family: "Lato", "SpoqaHanSans", sans-serif;
+		}
+
+		.section-jinbro {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: stretch;
+			
+			position: relative;
+			
+			height: 44em;
+			color: #fff;	
+		}
+
+		.section-left-wrapper-jinbro {
+			flex-grow: 3;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			
+			background-image: url("http://d2hmp4n7p97ldw.cloudfront.net/assets/home/home-univ-a2a9691778a5c9112aaf395c7760e66d50be2bcf530f189a0743b31937dec4af.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.section-left-jinbro { 
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		 }
+
+		 .section-left-title-jinbro {
+		 	margin-bottom: 50px;
+			
+			font-weight: lighter;
+			font-size: 40px;
+			letter-spacing: -3px;
+
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		 }
+
+		 .section-left-btn-jinbro {
+		 	display: flex;
+		 	flex-direction: row;
+		 	justify-content: center;
+		 	
+
+		 	background-color: rgba(0, 0, 0, 0.7);
+			margin-top: 10px;
+			padding: 15px 30px;
+
+			cursor: pointer;
+		 }
+
+		 .section-left-btn-jinbro > span {
+		 	font-size: 15px;
+			color: #fff;
+		 }
+
+		 .section-left-btn-jinbro > img {
+		 	margin-left: 10px;
+		 	height: 20px;
+		 }
+
+		.section-right-wrapper-jinbro {
+			flex-grow: 1;
+
+			background-color: #000;
+		}
+
+		.section-right-jinbro {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			height: 100%;	
+		}
+
+		.section-right-content-jinbro {
+			position: relative;	
+
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.section-right-content-jinbro > div {
+			position: absolute;
+
+			left: -1080px;
+			top: -50px;
+
+			overflow: hidden;			
+		}
+
+		.font-big-jinbro {
+			font-size: 60px;
+			font-weight: bolder;
+		}
+
+		.font-small-jinbro {
+			font-size: 15px;
+			font-weight: lighter;
+		}
+		
+		.section-top-wrapper-jinbro {
+			position: absolute;
+
+			width: 100%;
+			height: 100%;
+
+			background-color: rgba(255, 255, 255, 0.9);
+
+			color: #000;
+			font-weight: lighter;
+		}
+
+		.section-top-jinbro {
+			position: relative;
+		}
+
+		.section-top-jinbro > img {
+			position: absolute;
+
+			right: 50px;
+			top: 50px;
+
+			width: 50px;
+			height: 50px;
+
+			cursor: pointer;
+		}
+		
+		.section-top-display-jinbro {
+			display: block;
+		}
+		
+		.section-top-hide-jinbro {
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+
+
+	<section class="section-jinbro">
+		<div class="section-left-wrapper-jinbro">
+
+			<div class="section-left-jinbro">
+				<!-- title -->
+				<div class="section-left-title-jinbro">
+					그동안 <strong>멋쟁이 사자처럼</strong>을 통해
+				</div>
+
+				<!-- btn-school-search -->
+				<div class="section-left-btn-jinbro" id="btn-search-jinbro"  onmousedown="test(this)">
+					<span>학교 검색</span><img src="https://d2hmp4n7p97ldw.cloudfront.net/assets/home/arrow-right-a33092b45510989fdeb9abb98f4f0ed16e7ce5059c9889846538309c48b3cf7c.png" />
+				</div>
+			</div>
+
+			
+		</div>
+		
+		<div class="section-right-wrapper-jinbro">
+			<div class="section-right-jinbro">
+				<div class="section-right-content-jinbro">
+					<div>
+						<img src="https://d2hmp4n7p97ldw.cloudfront.net/assets/home/line-3-314cc5c4ec773a2f04721e8861db40b8f1d21c223b8a7b6c0fdb096669fbbdf1.png" />
+						<span class="font-big-jinbro">130<span class="font-small-jinbro"> 개 학교에서</span></span>
+					</div>
+				</div>
+
+				<div class="section-right-content-jinbro">
+					<div>
+						<img src="https://d2hmp4n7p97ldw.cloudfront.net/assets/home/line-2-0e31e14d1e8b2b3e49cc28d243ba2163d0c97935a85ae8c902323e4b6bd7490f.png" />
+						<span class="font-big-jinbro">1,916<span class="font-small-jinbro"> 명의 학생들이</span></span>
+					</div>
+				</div>
+
+				<div class="section-right-content-jinbro">
+					<div>
+						<img src="https://d2hmp4n7p97ldw.cloudfront.net/assets/home/line-3-314cc5c4ec773a2f04721e8861db40b8f1d21c223b8a7b6c0fdb096669fbbdf1.png" />
+						<span class="font-big-jinbro">579<span class="font-small-jinbro"> 개의 서비스를 만들었습니다.</span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="section-top-wrapper-jinbro section-top-hide-jinbro" id="section-top-pannel-jinbro">
+			<div class="section-top-jinbro">
+				<img onmousedown="test(this)" id="section-top-close-jinbro" src="https://d2hmp4n7p97ldw.cloudfront.net/assets/home/x-btn-0939ca931678f6d129d8aafc2cfa5c62418f0b7770e3461d721b1f53422d666d.png" />
+			</div>
+		</div>
+		
+	</section>
+	
+	<script>
+	
+		function test(tag) {
+			
+			var tname = tag.id.trim()
+			
+			var pannel_jinbro = document.getElementById("section-top-pannel-jinbro")
+			var sub_cname;
+				
+			if(tname === "section-top-close-jinbro"){
+				sub_cname = "section-top-hide-jinbro"
+			} else if(tname === "btn-search-jinbro"){
+				sub_cname = "section-top-display-jinbro"
+			}
+			
+			var cname = pannel_jinbro.className
+			var target = cname.substring(27).trim()
+				
+			cname = cname.replace(target, sub_cname)
+			pannel_jinbro.className = cname
+		}
+		
+	</script>
+	
+
+</body>
+</html>

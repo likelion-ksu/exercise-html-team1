@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>멋쟁이 사자처럼</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+        @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+        body {
+            font-family: 'Lato', 'Spoqa Han Sans', sans-serif;
+        }
+        
+        .navbar-moon {
+            height: 30px;
+        }
+        
+        /* nav 위치 */
+        .navbar-top-moon{
+            position: absolute;
+            top: 0;
+            left: 13%;
+            right: 10%;
+        }
+        /* 로고 */
+        .navbar-logo-moon {
+            float: left;
+            padding-top: 1.4em;
+        }
+        
+        /* 로고 이미지 크기 */
+        .navbar-logo-moon img{
+            height: 1.1em;
+        }
+        
+        /* 카테고리 */
+        .navbar-moon ul li {
+            list-style: none;
+            position: relative;
+            left: 16em;
+            color: gray;
+            float: left;
+        }
+        
+        /* 카테고리 상세 */
+        .nav-category-moon {
+            text-align: center;
+            line-height:30px;
+            vertical-align: middle;
+            padding-right: 1.2em;
+            padding-left: 1.2em;
+        }
+        
+        /* 카테고리 링크 */
+        .nav-link-moon {
+            text-decoration: none;
+            color: gray;
+        }
+        
+        a:hover {
+            color: silver;
+        }
+        
+        a:active {
+            color: white;
+        }
+        
+        
+        /* 카테고리 언어부분 */
+        .nav-lang-moon {
+            font-size:0.9em;
+            font-weight: 100;
+            border: 1px solid white;
+            padding: 4px;
+        }
+        
+        .prev-moon{
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23202020'%2F%3E%3C%2Fsvg%3E");
+            position: absolute;
+            top: 57%;
+            left: 2%;
+        }
+        .next-moon {
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23202020'%2F%3E%3C%2Fsvg%3E");
+            position: absolute;
+            top: 57%;
+            right: 2% ;
+            
+        }
+        
+        .prev-moon,.next-moon {
+            float:left;
+            width: 27px;
+            height: 44px;
+            z-index: 10;
+            cursor: pointer;
+            -moz-background-size: 10px 100px;
+            -webkit-background-size: 100px 100px;
+            background-size: 27px 44px;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black;
+        }
+         .slider-holder-moon{
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .left-wing-moon {
+            background-image: url(https://d2hmp4n7p97ldw.cloudfront.net/assets/home/slide/left-wing-e945206df58f66d077b29a632a1a16a8f4c06dfc10a2ef7787f356fb6a157ffb.png);
+        }
+        
+        .home-headerimage-moon {
+            width: 100%;
+            height: 100%;
+            background: no-repeat center center / cover;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--창준-->
+    <nav class="container navbar-moon navbar-top-moon">
+        <a href="" class="navbar-logo-moon">
+            <img src="https://d2hmp4n7p97ldw.cloudfront.net/assets/logo/likelion-white-a930fbcdf3042a50ba882ece9c02f43536971297a8e143e212d9b92d653bfa44.png">
+        </a>
+        <ul>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">HOME</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">HISTORY</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">PORTFOLIO</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">WORKS</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">PRESS</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">PARTNERS</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon nav-lang-moon">KOR</a>
+            </li>
+            <li class="nav-category-moon">
+                <a href="" class="nav-link-moon">ENG</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+            <div class="home-headerimage-moon" style="background-image: url('https://d2hmp4n7p97ldw.cloudfront.net/assets/home/slide/02-background-be82ae1605d3b8d909373f516e7aa593da9ab78ded7efd9177f94977d916b1c6.png')">
+                <div class="prev-moon x0"></div>
+                <div class="next-moon x0"></div>
+            </div>
+    </header>
+</body>
+</html>
